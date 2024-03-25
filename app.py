@@ -25,7 +25,7 @@ app_info = {
 
 app =Flask(__name__)
 
-app.config['SECRET_KEY'] = 'SomethingWhatNo1CanGuess!'
+app.config['SECRET_KEY'] = '!'
 
 
 def get_db():
